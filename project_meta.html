@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bounce!130</title>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- meta -->
+
+    <meta property="og:title" content="Bounce!130" />
+
+    <meta property="og:url" content="#" />
+
+    <meta property="og:image" content="#" />
+
+    <meta property="og:description" content="2022 계원예대 디지털미디어디자인과 졸업전시회 Bounce!130" />
+
+    <meta name="twitter:card" content="2022 계원예대 디지털미디어디자인과 졸업전시회 Bounce!130" />
+
+    <meta name="twitter:title" content="Bounce!130" />
+
+    <meta name="twitter:url" content="#" />
+
+    <meta name="twitter:image" content="#" />
+
+    <meta name="twitter:description" content="2022 계원예대 디지털미디어디자인과 졸업전시회 Bounce!130" />
+
+    <!-- favicon -->
+
+    <link rel="icon" href="./img/header/favicon/favicon_32.ico" sizes="32x32" />
+
+    <link rel="apple-touch-icon-precomposed" href="./img/header/favicon/Bounce!130-touch-icon.png">
+
+
+    <link type="text/css" rel="stylesheet" href="./main.css">
+    <link type="text/css" rel="stylesheet" href="./css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./css/profile_meta_header.css">
+    <!-- <link type="text/css" rel="stylesheet" href="./css/projects_meta.css"> -->
+    <link href="./css/projects.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+    <style>
+        #blocker {
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        #instructions {
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+            -webkit-box-orient: horizontal;
+            -moz-box-orient: horizontal;
+            box-orient: horizontall;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            box-pack: center;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            box-align: center;
+            color: #ffffff;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header {
+            z-index: 1;
+            background-color: transparent !important;
+        }
+
+
+        .basicBtn a {
+            color: #222222 !important;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="inner">
+            <h1 class="w_logo"><a href="./index.html"><img src="./img/header/logo.png" alt=""></a></h1>
+            <h1 class="m_logo"><a href="./index.html"><img src="./img/header/logo2.png" alt=""></a></h1>
+            <ul class="headerBtn">
+                <li><button class="basicBtn"><a href="./projects_basic.html">Basic </a> </button></li>
+                <li><button class="metaBtn"><a href="./project_meta.html"> Meta </a></button></li>
+            </ul>
+            <ul class="navList">
+                <li><a href="./projects_basic.html">Project!28</a></li>
+                <li><a href="./profile_basic.html">Student!130</a></li>
+            </ul>
+            <div class="hamburgerBtn" data-menu="4">
+                <div class="icon"></div>
+            </div>
+            <div class="menu blind">
+                <div class="menuAllWrap">
+
+                    <ul class="menuWrap1">
+                        <li class="menu01">
+                            <a href="./curriculum.html">
+                                <div>01</div>Curriculum
+                            </a>
+                        </li>
+                        <li class="menu02">
+                            <a href="./projects_basic.html">
+                                <div>02 <span> 28 </span> </div>
+                                Project
+                            </a>
+                        </li>
+                        <li class="menu03">
+                            <a href="./profile_basic.html">
+                                <div>03 <span> 130 </span></div>
+                                Student
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="menuWrap2">
+                        <li class="menu04">
+                            <a href="./sticker.html">
+                                <div>04</div>Sticker
+                            </a>
+                        </li>
+                        <li class="menu05">
+                            <a href=http://dmdbounce.dothome.co.kr/board/index.php>
+                                <div>05</div>Guestbook
+                            </a>
+                        </li>
+                        <li class="menu06">
+                            <a href="./behind.html">
+                                <div>06</div>Behind
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="info">
+        <!-- <span class="info_1">Digital Media Design | Delight Insight 2022</span> <br> -->
+        <span class="info_2">WASD 키를 누르면 이동합니다.<br>ESC 키를 누르고 하단 바의 프로젝트를 클릭해 보세요.</span>
+    </div>
+
+    <div id="container">
+    </div>
+
+<!-- 
+
+    <div id="blocker">
+        <div id="instructions">
+            <span style="font-size:40px">Click to play</span>
+            <br /> (W, A, S, D = Move, SPACE = Jump, MOUSE = Look around)
+        </div>
+    </div> -->
+
+
+    <!-- 상세페이지 영역 -->
+    <!-- 프로젝트 상세 페이지-->
+    <section class="projectPage">
+
+        <!-- 프로젝트 페이지 이미지 -->
+        <div class="imagePart">
+
+        </div>
+        <!-- 프로젝트 페이지 모바일 이미지 -->
+        <div class="imagePartMobile">
+
+        </div>
+        <!-- 팀 페이지 멤버 -->
+        <div class="memberPart">
+
+        </div>
+
+        <!-- 뒤로가기버튼 -->
+        <p class="deleteBtn">
+            <a href="#">
+                <img src="./img/project/deleteBtn_black.svg" alt="delete">
+            </a>
+        </p>
+
+        <div class="textPart">
+            <div class="projectTextBox">
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="modalWrap">
+        <div class="mapImg">
+            <img src="./img/project/map.jpg" alt="map">
+        </div>
+    </div>
+
+
+    <!--site-map-->
+
+    <section class="siteMap">
+        <div id="map"><a href="#open">Map</a></div>
+
+        <div class="fieldList">
+            <ul class="fieldFilter">
+                <li class="teamColor">Digital Media</li>
+                <li class="teamColor">New Media</li>
+                <li class="teamColor">Moving Image</li>
+                <li class="teamColor">Grade 4</li>
+            </ul>
+        </div>
+        <!-- 전체 프로젝트 리스트 -->
+        <div class="allList">
+            <ul class="allListMenu">
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "./build/three.module.js",
+					"./jsm/": "./jsm/"
+				}
+			}
+	</script>
+
+    <script type="module">
+
+        // import * as THREE from 'three';
+        import * as THREE from './build/three.module.js';
+
+        import Stats from './jsm/libs/stats.module.js';
+
+        import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+
+        import { Octree } from './jsm/math/Octree.js';
+        import { OctreeHelper } from './jsm/helpers/OctreeHelper.js';
+
+        import { Capsule } from './jsm/math/Capsule.js';
+
+        import { GUI } from './jsm/libs/lil-gui.module.min.js';
+
+        const clock = new THREE.Clock();
+
+        const scene = new THREE.Scene();
+        // scene.background = new THREE.Color( 0x88ccee );
+        scene.fog = new THREE.Fog(0xffffff, 0, 180);
+
+        const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.rotation.order = 'YXZ';
+
+        const fillLight1 = new THREE.HemisphereLight(0xffffff, 0x2b2b2b, 0.5);
+        fillLight1.position.set(2, 1, 1);
+        scene.add(fillLight1);
+
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+        directionalLight.position.set(0, 0, 0);
+        directionalLight.castShadow = true;
+        directionalLight.shadow.camera.near = 0.01;
+        directionalLight.shadow.camera.far = 500;
+        directionalLight.shadow.camera.right = 30;
+        directionalLight.shadow.camera.left = - 30;
+        directionalLight.shadow.camera.top = 30;
+        directionalLight.shadow.camera.bottom = - 30;
+        directionalLight.shadow.mapSize.width = 1024;
+        directionalLight.shadow.mapSize.height = 1024;
+        directionalLight.shadow.radius = 4;
+        directionalLight.shadow.bias = - 0.00006;
+        scene.add(directionalLight);
+
+        const container = document.getElementById('container');
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.VSMShadowMap;
+        renderer.outputEncoding = THREE.sRGBEncoding;
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        container.appendChild(renderer.domElement);
+
+
+
+
+        // const stats = new Stats();
+        // stats.domElement.style.position = 'absolute';
+        // stats.domElement.style.top = '0px';
+        // container.appendChild( stats.domElement );
+
+        const GRAVITY = 30;
+
+        const NUM_SPHERES = 100;
+        const SPHERE_RADIUS = 0.2;
+
+        const STEPS_PER_FRAME = 5;
+        const sphereGeometry = new THREE.IcosahedronGeometry(SPHERE_RADIUS, 5);
+        const sphereMaterial = new THREE.MeshLambertMaterial({ color: 0xbbbb44 });
+
+        const spheres = [];
+        let sphereIdx = 0;
+
+        for (let i = 0; i < NUM_SPHERES; i++) {
+
+            const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+            sphere.castShadow = true;
+            sphere.receiveShadow = true;
+
+            scene.add(sphere);
+
+            spheres.push({
+                mesh: sphere,
+                collider: new THREE.Sphere(new THREE.Vector3(0, - 100, 0), SPHERE_RADIUS),
+                velocity: new THREE.Vector3()
+            });
+        }
+
+        const worldOctree = new Octree();
+        const playerCollider = new Capsule(new THREE.Vector3(0, 10.35, 0), new THREE.Vector3(0, 13, 0), 0.35);
+        const playerVelocity = new THREE.Vector3();
+        const playerDirection = new THREE.Vector3();
+        playerCollider.start.set(260, 2, -13.5);
+        playerCollider.end.set(260, 8.5, -12.5);
+
+        let playerOnFloor = false;
+        let mouseTime = 0;
+
+        const keyStates = {};
+
+        const vector1 = new THREE.Vector3();
+        const vector2 = new THREE.Vector3();
+        const vector3 = new THREE.Vector3();
+
+        const blocker = document.getElementById('blocker');
+        const instructions = document.getElementById('instructions');
+        // console.log(blocker);
+        document.addEventListener('keydown', (event) => {
+
+            console.log("keydown");
+            keyStates[event.code] = true;
+            // instructions.style.display = 'none';
+            // blocker.style.display = 'none';
+
+        });
+
+        document.addEventListener('keyup', (event) => {
+            keyStates[event.code] = false;
+
+            // blocker.style.display = 'block';
+            // instructions.style.display = 'box';
+            
+        });
+        
+        document.addEventListener('mousedown', () => {
+
+            // console.log("mousedown");
+            document.body.requestPointerLock();
+            mouseTime = performance.now();
+
+            // instructions.style.display = 'none';
+            // blocker.style.display = 'none';
+
+        });
+
+        document.addEventListener( 'mouseup', () => {
+            // console.log("mouseup");
+
+        	if ( document.pointerLockElement == !null ){
+                // console.log("pointerlock 상태");
+                // blocker.style.display = 'block';
+                // instructions.style.display = '';
+
+                // console.log(blocker.style.display);
+            } ;
+        } );
+
+        document.body.addEventListener('mousemove', (event) => {
+
+            if (document.pointerLockElement === document.body) {
+
+                camera.rotation.y -= event.movementX / 500;
+                camera.rotation.x -= event.movementY / 500;
+
+            }
+
+        });
+
+        window.addEventListener('resize', onWindowResize);
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+
+
+        function playerCollisions() {
+
+            const result = worldOctree.capsuleIntersect(playerCollider);
+
+            playerOnFloor = false;
+
+            if (result) {
+                playerOnFloor = result.normal.y > 0;
+
+                if (!playerOnFloor) {
+
+                    playerVelocity.addScaledVector(result.normal, - result.normal.dot(playerVelocity));
+
+                }
+
+                playerCollider.translate(result.normal.multiplyScalar(result.depth));
+
+            }
+        }
+
+        function updatePlayer(deltaTime) {
+
+            let damping = Math.exp(- 4 * deltaTime) - 1;
+
+            if (!playerOnFloor) {
+
+                playerVelocity.y -= GRAVITY * deltaTime;
+
+                // small air resistance
+                damping *= 0.1;
+
+            }
+
+            playerVelocity.addScaledVector(playerVelocity, damping);
+            const deltaPosition = playerVelocity.clone().multiplyScalar(deltaTime);
+            playerCollider.translate(deltaPosition);
+
+            playerCollisions();
+
+            camera.position.copy(playerCollider.end);
+
+        }
+
+        function playerSphereCollision(sphere) {
+
+            const center = vector1.addVectors(playerCollider.start, playerCollider.end).multiplyScalar(0.5);
+            const sphere_center = sphere.collider.center;
+            const r = playerCollider.radius + sphere.collider.radius;
+            const r2 = r * r;
+
+            // approximation: player = 3 spheres
+
+            for (const point of [playerCollider.start, playerCollider.end, center]) {
+
+                const d2 = point.distanceToSquared(sphere_center);
+
+                if (d2 < r2) {
+
+                    const normal = vector1.subVectors(point, sphere_center).normalize();
+                    const v1 = vector2.copy(normal).multiplyScalar(normal.dot(playerVelocity));
+                    const v2 = vector3.copy(normal).multiplyScalar(normal.dot(sphere.velocity));
+
+                    playerVelocity.add(v2).sub(v1);
+                    sphere.velocity.add(v1).sub(v2);
+
+                    const d = (r - Math.sqrt(d2)) / 2;
+                    sphere_center.addScaledVector(normal, - d);
+
+                }
+
+            }
+
+        }
+
+        function spheresCollisions() {
+
+            for (let i = 0, length = spheres.length; i < length; i++) {
+
+                const s1 = spheres[i];
+
+                for (let j = i + 1; j < length; j++) {
+
+                    const s2 = spheres[j];
+                    const d2 = s1.collider.center.distanceToSquared(s2.collider.center);
+                    const r = s1.collider.radius + s2.collider.radius;
+                    const r2 = r * r;
+
+                    if (d2 < r2) {
+                        const normal = vector1.subVectors(s1.collider.center, s2.collider.center).normalize();
+                        const v1 = vector2.copy(normal).multiplyScalar(normal.dot(s1.velocity));
+                        const v2 = vector3.copy(normal).multiplyScalar(normal.dot(s2.velocity));
+
+                        s1.velocity.add(v2).sub(v1);
+                        s2.velocity.add(v1).sub(v2);
+
+                        const d = (r - Math.sqrt(d2)) / 2;
+
+                        s1.collider.center.addScaledVector(normal, d);
+                        s2.collider.center.addScaledVector(normal, - d);
+
+                    }
+                }
+            }
+        }
+
+        function updateSpheres(deltaTime) {
+
+            spheres.forEach(sphere => {
+
+                sphere.collider.center.addScaledVector(sphere.velocity, deltaTime);
+                const result = worldOctree.sphereIntersect(sphere.collider);
+
+                if (result) {
+                    sphere.velocity.addScaledVector(result.normal, - result.normal.dot(sphere.velocity) * 1.5);
+                    sphere.collider.center.add(result.normal.multiplyScalar(result.depth));
+                } else {
+                    sphere.velocity.y -= GRAVITY * deltaTime;
+                }
+
+                const damping = Math.exp(- 1.5 * deltaTime) - 1;
+                sphere.velocity.addScaledVector(sphere.velocity, damping);
+                playerSphereCollision(sphere);
+
+            });
+
+            spheresCollisions();
+            for (const sphere of spheres) {
+                sphere.mesh.position.copy(sphere.collider.center);
+            }
+
+        }
+
+
+        function getForwardVector() {
+
+            camera.getWorldDirection(playerDirection);
+            playerDirection.y = 0;
+            playerDirection.normalize();
+
+            return playerDirection;
+
+        }
+
+        function getSideVector() {
+
+            camera.getWorldDirection(playerDirection);
+            playerDirection.y = 0;
+            playerDirection.normalize();
+            playerDirection.cross(camera.up);
+
+            return playerDirection;
+
+        }
+
+        function controls(deltaTime) {
+
+            // gives a bit of air control
+            const speedDelta = deltaTime * (playerOnFloor ? 50 : 8);
+
+            if (keyStates['KeyW']) {
+
+                playerVelocity.add(getForwardVector().multiplyScalar(speedDelta));
+
+            }
+
+            if (keyStates['KeyS']) {
+
+                playerVelocity.add(getForwardVector().multiplyScalar(- speedDelta));
+
+            }
+
+            if (keyStates['KeyA']) {
+
+                playerVelocity.add(getSideVector().multiplyScalar(- speedDelta));
+
+            }
+
+            if (keyStates['KeyD']) {
+
+                playerVelocity.add(getSideVector().multiplyScalar(speedDelta));
+
+            }
+
+            if (playerOnFloor) {
+
+                if (keyStates['Space']) {
+
+                    playerVelocity.y = 15;
+
+                }
+
+            }
+
+        }
+
+        var exhibition;
+        var white_material = new THREE.MeshPhongMaterial({ color: 0xffffff });
+        const loader = new GLTFLoader().setPath('./glb/');
+        exhibition = new THREE.Object3D();
+        loader.load('proj_meta_3.glb', (gltf) => {
+
+            scene.add(gltf.scene);
+            worldOctree.fromGraphNode(gltf.scene);
+            gltf.scene.traverse(child => {
+                if (child.isMesh) {
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+                }
+                gltf.scene.material = white_material;
+            });
+
+            exhibition = gltf.scene;
+            worldOctree.fromGraphNode(exhibition);
+            exhibition.name = 'exhibition';
+            // exhibition.rotateX(Math.PI / 2);
+            exhibition.traverse((child, i) => {
+                child.material = white_material;
+                child.material.side = THREE.DoubleSide;
+                if (child.isMesh) {
+                    child.material = white_material;
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+
+                }
+            })
+            exhibition.material = white_material;
+            const helper = new OctreeHelper(worldOctree);
+            helper.visible = false;
+            scene.add(helper);
+            animate();
+
+        });
+        // Glass_Wall
+        const box_window = new THREE.BoxGeometry(11, 1, 18);
+        const materialGlass = new THREE.MeshPhysicalMaterial({
+            color: 0xffffff,
+            opacity: 1,
+            metalness: .1,
+            roughness: 0.3,
+            ior: 1.5, // 굴절률
+            /* 1 - 진공매질 / 1.0029 - 공기매질 / 1.4~1.7 - 유리매질 / 2.419 - 다이아몬드? */
+            thickness: 0.2, // 유리의 두께값 
+            transmission: 0.5,// 투명도 낮아질수록 불투명해짐 0~1 사이 값임
+            specularIntensity: 1,
+            specularColor: 0xffffff,
+            envMapIntensity: 1,
+            lightIntensity: 1,
+            exposure: 1,
+            alpha: true
+        });
+        const glass_window = new THREE.Mesh(box_window, materialGlass);
+        glass_window.position.set(186, -5, -10);
+        glass_window.receiveShadow = true;
+        glass_window.rotateX(Math.PI / 2);
+        glass_window.castShadow = true;
+        glass_window.name = 'GLASS';
+        scene.add(glass_window); // 휴게실 오른쪽
+
+        const glass_window2 = glass_window.clone();
+        glass_window2.position.set(217, -5, -10);
+        scene.add(glass_window2); // 휴게실 왼쪽
+
+        const glass_window3 = glass_window.clone();
+        glass_window3.position.set(283, -5, -30.5);
+        scene.add(glass_window3); //  크레이티브 스튜디오 왼쪽
+
+
+
+        const box_window_x2 = new THREE.BoxGeometry(19, 1, 18);
+        const glass_window_x2 = new THREE.Mesh(box_window_x2, materialGlass);
+        glass_window_x2.position.set(265, -5, -30.5);// ut 스튜디오 앞
+        glass_window_x2.rotateX(Math.PI / 2);
+        glass_window_x2.receiveShadow = true;
+        glass_window_x2.castShadow = true;
+        scene.add(glass_window_x2);
+
+        const box_window_x3 = new THREE.BoxGeometry(76, 1, 18);
+        const glass_window_x3 = new THREE.Mesh(box_window_x3, materialGlass);
+        glass_window_x3.position.set(341, -5, -30.4);//크스 큰유리
+        glass_window_x3.rotateX(Math.PI / 2);
+        glass_window_x3.receiveShadow = true;
+        glass_window_x3.castShadow = true;
+        scene.add(glass_window_x3);
+
+        const box_window_x5 = new THREE.BoxGeometry(24.5, 1, 18);
+        const glass_window_x5 = new THREE.Mesh(box_window_x5, materialGlass);
+        glass_window_x5.position.set(407, -5, -12.5);// 4층
+        glass_window_x5.rotateX(Math.PI / 2);
+        glass_window_x5.receiveShadow = true;
+        glass_window_x5.castShadow = true;
+        scene.add(glass_window_x5);
+
+        const box_window_x6 = new THREE.BoxGeometry(24, 1, 18);
+        const glass_window_x6 = new THREE.Mesh(box_window_x6, materialGlass);
+        glass_window_x6.position.set(405, -5, -30.6);// 크스 오른쪽
+        glass_window_x6.rotateX(Math.PI / 2);
+        glass_window_x6.receiveShadow = true;
+        glass_window_x6.castShadow = true;
+        scene.add(glass_window_x6);
+
+        const box_window_x7 = new THREE.BoxGeometry(20, 1, 18);
+        const glass_window_x7 = new THREE.Mesh(box_window_x7, materialGlass);
+        glass_window_x7.position.set(373.5, -5, -12.5);// 4층 오른쪽
+        glass_window_x7.rotateX(Math.PI / 2);
+        glass_window_x7.receiveShadow = true;
+        glass_window_x7.castShadow = true;
+        scene.add(glass_window_x7);
+
+        const box_window_x8 = new THREE.BoxGeometry(20, 1, 18);
+        const glass_window_x8 = new THREE.Mesh(box_window_x8, materialGlass);
+        glass_window_x8.position.set(341, -5, -12.5);// earth 2043
+        glass_window_x8.rotateX(Math.PI / 2);
+        glass_window_x8.receiveShadow = true;
+        glass_window_x8.castShadow = true;
+        scene.add(glass_window_x8);
+
+        const box_window_x9 = new THREE.BoxGeometry(30, 1, 18);
+        const glass_window_x9 = new THREE.Mesh(box_window_x9, materialGlass);
+        glass_window_x9.position.set(303, -5, -12.5);//전공심화
+        glass_window_x9.rotateX(Math.PI / 2);
+        glass_window_x9.receiveShadow = true;
+        glass_window_x9.castShadow = true;
+        scene.add(glass_window_x9);
+
+        const box_window_x10 = new THREE.BoxGeometry(19, 1, 18);
+        const glass_window_x10 = new THREE.Mesh(box_window_x10, materialGlass);
+        glass_window_x10.position.set(265, -5, -12.5);//모션 유리
+        glass_window_x10.rotateX(Math.PI / 2);
+        glass_window_x10.receiveShadow = true;
+        glass_window_x10.castShadow = true;
+        scene.add(glass_window_x10);
+
+
+        const name_geometry = new THREE.BoxGeometry(5, 1.875, 0.2);
+        // material = new THREE.MeshBasicMaterial( { color: 0xffffff, wireframe: true } );
+        const t_loader = new THREE.TextureLoader();
+        const bouncew_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_1.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_1.jpg") })
+        ];
+        const name_bounce = new THREE.Mesh(name_geometry, bouncew_material);
+        name_bounce.position.set(283, -1, -55.3);
+        name_bounce.rotateY(Math.PI / 2);
+        scene.add(name_bounce);
+
+        const kidaac_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_11.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_11.jpg") })
+        ];
+        const name_kidaac = new THREE.Mesh(name_geometry, kidaac_material);
+        name_kidaac.position.set(283, -1, -41.3);
+        name_kidaac.rotateY(Math.PI / 2);
+        scene.add(name_kidaac);
+
+        const pium_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_2.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_2.jpg") })
+        ];
+        const name_pium = new THREE.Mesh(name_geometry, pium_material);
+        name_pium.position.set(310.5, -1, -61.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_pium);
+
+        const alpick_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_13.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_13.jpg") })
+        ];
+        const name_alpick = new THREE.Mesh(name_geometry, alpick_material);
+        name_alpick.position.set(350.5, -1, -45.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_alpick);
+
+        const duck_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_12.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_12.jpg") })
+        ];
+        const name_duck = new THREE.Mesh(name_geometry, duck_material);
+        name_duck.position.set(329.5, -1, -45.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_duck);
+
+
+        const icendo_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_14.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_14.jpg") })
+        ];
+        const name_icendo = new THREE.Mesh(name_geometry, icendo_material);
+        name_icendo.position.set(370, -1, -45.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_icendo);
+
+        const kep_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_15.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_15.jpg") })
+        ];
+        const name_kep = new THREE.Mesh(name_geometry, kep_material);
+        name_kep.position.set(392.5, -1, -45.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_kep);
+
+        const edam_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_7.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_7.jpg") })
+        ];
+        const name_edam = new THREE.Mesh(name_geometry, edam_material);
+        name_edam.position.set(392.5, -1, -50.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_edam);
+
+        const mango_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_8.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_8.jpg") })
+        ];
+        const name_mango = new THREE.Mesh(name_geometry, mango_material);
+        name_mango.position.set(369.5, -1, -50.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_mango);
+
+        const bada_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_9.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_9.jpg") })
+        ];
+        const name_bada = new THREE.Mesh(name_geometry, bada_material);
+        name_bada.position.set(350.5, -1, -50.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_bada);
+
+        const cloup_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_10.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_10.jpg") })
+        ];
+        const name_cloup = new THREE.Mesh(name_geometry, cloup_material);
+        name_cloup.position.set(328.5, -1, -50.3);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_cloup);
+
+
+        const omz_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_3.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_3.jpg") })
+        ];
+        const name_omz = new THREE.Mesh(name_geometry, omz_material);
+        name_omz.position.set(328.5, -1, -61.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_omz);
+
+        const transwell_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_4.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_4.jpg") })
+        ];
+        const name_transwell = new THREE.Mesh(name_geometry, transwell_material);
+        name_transwell.position.set(350.5, -1, -61.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_transwell);
+
+        const an_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_5.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_5.jpg") })
+        ];
+        const name_an = new THREE.Mesh(name_geometry, an_material);
+        name_an.position.set(369.5, -1, -61.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_an);
+
+        const nero_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_6.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_6.jpg") })
+        ];
+        const name_nero = new THREE.Mesh(name_geometry, nero_material);
+        name_nero.position.set(392.5, -1, -61.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_nero);
+
+        const wheeli_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_16.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_16.jpg") })
+        ];
+
+        const name_wheeli = new THREE.Mesh(name_geometry, wheeli_material);
+        name_wheeli.position.set(370, -1, -33.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_wheeli);
+
+        const bang_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_17.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_17.jpg") })
+        ];
+        const name_bang = new THREE.Mesh(name_geometry, bang_material);
+        name_bang.position.set(350, -1, -33.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_bang);
+
+        const mal_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_18.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_18.jpg") })
+        ];
+        const name_mal = new THREE.Mesh(name_geometry, mal_material);
+        name_mal.position.set(329, -1, -33.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_mal);
+
+
+        const wooju_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_19.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_19.jpg") })
+        ];
+        const name_wooju = new THREE.Mesh(name_geometry, wooju_material);
+        name_wooju.position.set(310.5, -1, -33.5);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_wooju);
+
+        const noise_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_24.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_24.jpg") })
+        ];
+        const name_noise = new THREE.Mesh(name_geometry, noise_material);
+        name_noise.position.set(401, -1, 4);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_noise);
+
+        const earth_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_20.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_20.jpg") })
+        ];
+        const name_earth = new THREE.Mesh(name_geometry, earth_material);
+        name_earth.position.set(367, -1, 4);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_earth);
+
+        const sweet_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_21.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_21.jpg") })
+        ];
+        const name_sweet = new THREE.Mesh(name_geometry, sweet_material);
+        name_sweet.position.set(335, -1, 4);
+        // name_pium.rotateY( Math.PI / 2 );
+        scene.add(name_sweet);
+
+        const britge_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_25.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_25.jpg") })
+        ];
+        const name_britge = new THREE.Mesh(name_geometry, britge_material);
+        name_britge.position.set(315, -1, 16);
+        name_britge.rotateY(Math.PI / 2);
+        scene.add(name_britge);
+
+        const weare_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_27.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_27.jpg") })
+        ];
+        const name_weare = new THREE.Mesh(name_geometry, weare_material);
+        name_weare.position.set(315, -1, -0.5);
+        name_weare.rotateY(Math.PI / 2);
+        scene.add(name_weare);
+
+        const ddok_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_26.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_26.jpg") })
+        ];
+        const name_ddok = new THREE.Mesh(name_geometry, ddok_material);
+        name_ddok.position.set(282, -1, 16);
+        name_ddok.rotateY(Math.PI / 2);
+        scene.add(name_ddok);
+
+
+        const breathin_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_28.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_28.jpg") })
+        ];
+        const name_breathin = new THREE.Mesh(name_geometry, breathin_material);
+        name_breathin.position.set(282, -1, -0.5);
+        name_breathin.rotateY(Math.PI / 2);
+        scene.add(name_breathin);
+
+        const reo_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_23.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_23.jpg") })
+        ];
+        const name_reo = new THREE.Mesh(name_geometry, reo_material);
+        name_reo.position.set(261, -1, 4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(name_reo);
+
+        const life_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_22.jpg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/meta_22.jpg") })
+        ];
+        const name_life = new THREE.Mesh(name_geometry, life_material);
+        name_life.position.set(261, -1, -47.5);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(name_life);
+
+
+
+
+
+        const dmd_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_dmd.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_dmd.png") })
+        ];
+        const dmd_sign = new THREE.Mesh(name_geometry, dmd_sign_material);
+        dmd_sign.position.set(386, 6, -30);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(dmd_sign);
+
+        const dmd_sign_material2 = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_dmd.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_dmd.png") })
+        ];
+        const dmd_sign2 = new THREE.Mesh(name_geometry, dmd_sign_material2);
+        dmd_sign2.position.set(295, 6, -30);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(dmd_sign2);
+
+        const movie_life_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") })
+        ];
+        const movie_life_sign = new THREE.Mesh(name_geometry, movie_life_sign_material);
+        movie_life_sign.position.set(251.5, 6, -30);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(movie_life_sign);
+
+        const movie_reo_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") })
+        ];
+        const movie_reo_sign = new THREE.Mesh(name_geometry, movie_reo_sign_material);
+        movie_reo_sign.position.set(251.5, 6, -13.4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(movie_reo_sign);
+
+        const grade4_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_4grade.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_4grade.png") })
+        ];
+        const grade4_sign = new THREE.Mesh(name_geometry, grade4_sign_material);
+        grade4_sign.position.set(283.4, 6, -13.4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(grade4_sign);
+
+        const sweet_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_newmedia.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_newmedia.png") })
+        ];
+        const sweet_sign = new THREE.Mesh(name_geometry, sweet_sign_material);
+        sweet_sign.position.set(326.5, 6, -13.4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(sweet_sign);
+
+        const earth_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_newmedia.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_newmedia.png") })
+        ];
+        const earth_sign = new THREE.Mesh(name_geometry, earth_sign_material);
+        earth_sign.position.set(358.5, 6, -13.4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(earth_sign);
+
+        const noise_sign_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./img/project_meta/sign/sign_video.png") })
+        ];
+        const noise_sign = new THREE.Mesh(name_geometry, noise_sign_material);
+        noise_sign.position.set(390.5, 6, -13.4);
+        // name_reo.rotateY( Math.PI / 2 );
+        scene.add(noise_sign);
+
+
+        // 팀 오브젝트 밑 박스
+        var box = new THREE.Object3D();
+        loader.load('box_all_l.glb', function (gltf) {
+            box = gltf.scene;
+
+            gltf.scene.traverse(child => {
+                if (child.isMesh) {
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+                }
+            });
+
+            scene.add(box);
+
+        }, undefined, function (error) {
+            console.error(error);
+
+            box.add(gltf.scene);
+            worldOctree.fromGraphNode(gltf.scene);
+            box.name = 'box';
+            gltf.scene.traverse(child => {
+                if (child.isMesh) {
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+                }
+
+            });
+
+            const helper = new OctreeHelper(worldOctree);
+            helper.visible = false;
+            scene.add(helper);
+            animate();
+        });
+
+
+
+        const material_loader = new GLTFLoader().setPath('./glb/01_TeamObject/');
+        var bounce_material = new THREE.MeshPhongMaterial({ color: 0xff005c });
+        //1 Bounce!130
+        var bounce = new THREE.Object3D();
+        material_loader.load('01_Bounce130.glb', function (gltf) {
+            bounce = gltf.scene;
+            bounce.name = 'bounce';
+            // bounce.rotateX(Math.PI / 2);
+            // bounce.position.set(200,-5,-10);
+            bounce.traverse((child, i) => {
+                child.material = bounce_material;
+                child.material.side = THREE.DoubleSide;
+            })
+            exhibition.material = bounce_material;
+            scene.add(bounce);
+            // papi.add(bounce);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        // console.log(bounce);
+
+        //2 pium
+        var pium = new THREE.Object3D();
+        material_loader.load('02_P-UM.glb', function (gltf) {
+            pium = gltf.scene;
+            pium.name = 'pium';
+            // pium.rotateX(Math.PI / 2);
+            scene.add(pium);
+            // papi.add(pium);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //03 OMZ
+        var OMZ = new THREE.Object3D();
+        material_loader.load('03_omz.glb', function (gltf) {
+            OMZ = gltf.scene;
+            OMZ.name = 'OMZ';
+            // OMZ.rotateX(Math.PI / 2);
+            scene.add(OMZ);
+            // papi.add(OMZ);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //04 transwell 
+        var transwell = new THREE.Object3D();
+        material_loader.load('04_TRANSWELL.glb', function (gltf) {
+            transwell = gltf.scene;
+            transwell.name = 'transwell';
+            // transwell.rotateX(Math.PI / 2);
+            scene.add(transwell);
+            // papi.add(transwell);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //05  annong
+        var annong = new THREE.Object3D();
+        material_loader.load('05_annong.glb', function (gltf) {
+            annong = gltf.scene;
+            annong.name = 'annong';
+            // annong.rotateX(Math.PI / 2);
+            scene.add(annong);
+            // papi.add(annong);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //06 nero
+        var nero = new THREE.Object3D();
+        material_loader.load('06_NERO.glb', function (gltf) {
+            nero = gltf.scene;
+            nero.name = 'nero';
+            // nero.rotateX(Math.PI / 2);
+            scene.add(nero);
+            // papi.add(nero);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //07 edam
+        var edam = new THREE.Object3D();
+        material_loader.load('07_edam.glb', function (gltf) {
+            edam = gltf.scene;
+            edam.name = 'edam';
+            // edam.rotateX(Math.PI / 2);
+            scene.add(edam);
+            // papi.add(edam);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //08 mango
+        var mango = new THREE.Object3D();
+        material_loader.load('08_MANGO.glb', function (gltf) {
+            mango = gltf.scene;
+            mango.name = 'mango';
+            // mango.rotateX(Math.PI / 2);
+            scene.add(mango);
+            // papi.add(mango);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //09 bada
+        var bada = new THREE.Object3D();
+        material_loader.load('09_BADA.glb', function (gltf) {
+            bada = gltf.scene;
+            bada.name = 'bada';
+            // bada.rotateX(Math.PI / 2);
+            scene.add(bada);
+            // papi.add(bada);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //10 cloup
+        var cloup = new THREE.Object3D();
+        material_loader.load('10_CLOUP.glb', function (gltf) {
+            cloup = gltf.scene;
+            cloup.name = 'cloup';
+            // cloup.rotateX(Math.PI / 2);
+            scene.add(cloup);
+            // papi.add(cloup);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //11 kidaac
+        var kidaac = new THREE.Object3D();
+        material_loader.load('11_kidaac.glb', function (gltf) {
+            kidaac = gltf.scene;
+            kidaac.name = 'kidaac';
+            // kidaac.rotateX(Math.PI / 2);
+            scene.add(kidaac);
+            // papi.add(kidaac);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //12 duck
+        var duck = new THREE.Object3D();
+        material_loader.load('12_Duck.glb', function (gltf) {
+            duck = gltf.scene;
+            duck.name = 'duck';
+            // duck.rotateX(Math.PI / 2);
+            scene.add(duck);
+            // papi.add(duck);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //13 Alpick
+        var Alpick = new THREE.Object3D();
+        material_loader.load('13_Alpick.glb', function (gltf) {
+            Alpick = gltf.scene;
+            Alpick.name = 'Alpick';
+            // Alpick.rotateX(Math.PI / 2);
+            scene.add(Alpick);
+            // papi.add(Alpick);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+
+        //14 IDENDO
+        var ICDENDO = new THREE.Object3D();
+        material_loader.load('14_ICENDO.glb', function (gltf) {
+            ICDENDO = gltf.scene;
+            ICDENDO.name = 'ICDENDO';
+            // ICDENDO.rotateX(Math.PI / 2);
+            scene.add(ICDENDO);
+            // papi.add(ICDENDO);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //15 kepler
+        var kepler = new THREE.Object3D();
+        material_loader.load('15_kepler.glb', function (gltf) {
+            kepler = gltf.scene;
+            kepler.name = 'kepler';
+            // kepler.rotateX(Math.PI / 2);
+            scene.add(kepler);
+            // papi.add(kepler);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //16 wheeli
+        var wheeli = new THREE.Object3D();
+        material_loader.load('16_wheeli.glb', function (gltf) {
+            wheeli = gltf.scene;
+            wheeli.name = 'wheeli';
+            // wheeli.rotateX(Math.PI / 2);
+            scene.add(wheeli);
+            // papi.add(wheeli);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //17 bangbang
+        var bangbang = new THREE.Object3D();
+        material_loader.load('17_bangbang.glb', function (gltf) {
+            bangbang = gltf.scene;
+            bangbang.name = 'bangbang';
+            // bangbang.rotateX(Math.PI / 2);
+            scene.add(bangbang);
+            // papi.add(bangbang);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //18 malkkom
+        var malkkom = new THREE.Object3D();
+        material_loader.load('18_malkkom.glb', function (gltf) {
+            malkkom = gltf.scene;
+            malkkom.name = 'malkkom';
+            // malkkom.rotateX(Math.PI / 2);
+            scene.add(malkkom);
+            // papi.add(malkkom);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //19 wooju
+        var wooju = new THREE.Object3D();
+        material_loader.load('19_wooju.glb', function (gltf) {
+            wooju = gltf.scene;
+            wooju.name = 'wooju';
+            // wooju.rotateX(Math.PI / 2);
+            scene.add(wooju);
+            // papi.add(wooju);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //20 earth2043
+        var earth2043 = new THREE.Object3D();
+        material_loader.load('20_Earth2043.glb', function (gltf) {
+            earth2043 = gltf.scene;
+            earth2043.name = 'earth2043';
+            // earth2043.rotateX(Math.PI / 2);
+            scene.add(earth2043);
+            // papi.add(earth2043);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //21 sweetdreams
+        var sweetdreams = new THREE.Object3D();
+        material_loader.load('21_SWEETDREAMS.glb', function (gltf) {
+            sweetdreams = gltf.scene;
+            sweetdreams.name = 'sweetdreams';
+            // sweetdreams.rotateX(Math.PI / 2);
+            scene.add(sweetdreams);
+            // papi.add(sweetdreams);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //22 lifeforyou 너를위한삶
+        var lifeforyou = new THREE.Object3D();
+        material_loader.load('22_lifeforyou.glb', function (gltf) {
+            lifeforyou = gltf.scene;
+            lifeforyou.name = 'lifeforyou';
+            // lifeforyou.rotateX(Math.PI / 2);
+            scene.add(lifeforyou);
+            // papi.add(lifeforyou);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //23 REO 
+        var REO_material = new THREE.SphereGeometry(10, 10, 10);
+        const reo_obj_material = new THREE.MeshBasicMaterial({ map: t_loader.load("./glb/01_TeamObject/reo_texture.jpeg") });
+        const REO = new THREE.Mesh(REO_material, reo_obj_material);
+        REO.position.set(261, -5.5, 4);
+        REO.scale.set(0.2, 0.2, 0.2);
+        scene.add(REO);
+
+        //24 Noise 
+        var Noise = new THREE.Object3D();
+        material_loader.load('24_Noise.glb', function (gltf) {
+            Noise = gltf.scene;
+            Noise.name = 'Noise';
+            // Noise.rotateX(Math.PI / 2);
+            scene.add(Noise);
+            // papi.add(Noise);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //25 Britge
+        var Britge = new THREE.Object3D();
+        material_loader.load('25_Britge.glb', function (gltf) {
+            Britge = gltf.scene;
+            Britge.name = 'Britge';
+            // Britge.rotateX(Math.PI / 2);
+            scene.add(Britge);
+            // papi.add(Britge);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+        //26 DDOKDDOk
+        var DDOKDDOk = new THREE.Object3D();
+        material_loader.load('26_DDokDDok.glb', function (gltf) {
+            DDOKDDOk = gltf.scene;
+            DDOKDDOk.name = 'DDOKDDOk';
+            // DDOKDDOk.rotateX(Math.PI / 2);
+            scene.add(DDOKDDOk);
+            // papi.add(DDOKDDOk);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //27 wearefriend
+        var friend = new THREE.Object3D();
+        material_loader.load('27_WeAreFriends.glb', function (gltf) {
+            friend = gltf.scene;
+            friend.name = 'friend';
+            // friend.rotateX(Math.PI / 2);
+            scene.add(friend);
+            // papi.add(friend);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+
+        //28 BreatheIn
+        const breathein_obj_geo = new THREE.BoxGeometry(4, 2, 0.2);
+        const Breathein_obj_material = [
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ opacity: 0.5, transparent: true }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./glb/01_TeamObject/breathein_texture.jpeg") }),
+            new THREE.MeshBasicMaterial({ map: t_loader.load("./glb/01_TeamObject/breathein_texture.jpeg") })
+        ];
+        const name_obj_breathein = new THREE.Mesh(breathein_obj_geo, Breathein_obj_material);
+        name_obj_breathein.position.set(282, -5.5, -0.5);
+        name_obj_breathein.rotateY(- Math.PI / 4);
+        scene.add(name_obj_breathein);
+
+
+        function teleportPlayerIfOob() {
+
+            if (camera.position.y <= - 25) {
+
+                playerCollider.start.set(200, 100.35, 0);
+                playerCollider.end.set(300, 1, 0);
+                playerCollider.radius = 0.35;
+                camera.position.copy(playerCollider.end);
+                camera.rotation.set(0, 0, 0);
+
+            }
+
+        }
+
+
+        function animate() {
+
+            const deltaTime = Math.min(0.05, clock.getDelta()) / STEPS_PER_FRAME;
+
+            // we look for collisions in substeps to mitigate the risk of
+            // an object traversing another too quickly for detection.
+
+            for (let i = 0; i < STEPS_PER_FRAME; i++) {
+
+                controls(deltaTime);
+
+                updatePlayer(deltaTime);
+
+                updateSpheres(deltaTime);
+
+                teleportPlayerIfOob();
+
+            }
+
+            renderer.render(scene, camera);
+
+            // stats.update();
+
+            requestAnimationFrame(animate);
+
+        }
+
+
+    </script>
+
+
+    <script src="./js/header.js" type="text/javascript"></script>
+    <script src="./js/projectsList.js" type="text/javascript"></script>
+    <script src="./js/projects_meta.js" type="text/javascript"></script>
+</body>
+
+</html>
